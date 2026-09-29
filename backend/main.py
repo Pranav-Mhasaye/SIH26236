@@ -13,7 +13,7 @@ from pipeline.recommender import PackagingRecommender
 from pipeline.search import CommoditySearchEngine
 from vision.service import VisionService
 from documents.extractor import DocumentExtractor
-from costing.engine import CostingEngine
+from costing.engine import CostingEngine, POLYMER_MARKET_BENCHMARKS
 from passport.qr_service import PassportService
 from peer_review.workflow import PeerReviewWorkflow
 from peer_review.trends import ScientificTrendCrawler
@@ -204,7 +204,7 @@ def calculate_cost(req: CostCalculateRequest):
     return {
         "calculation": unit_calc,
         "comparative_architectures": comparative,
-        "polymer_market_benchmarks": costing_engine.POLYMER_MARKET_BENCHMARKS
+        "polymer_market_benchmarks": POLYMER_MARKET_BENCHMARKS
     }
 
 @app.post("/api/passport/generate")

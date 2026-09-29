@@ -25,6 +25,11 @@ POLYMER_MARKET_BENCHMARKS = {
 }
 
 class CostingEngine:
+    POLYMER_MARKET_BENCHMARKS = POLYMER_MARKET_BENCHMARKS
+
+    def __init__(self):
+        self.POLYMER_MARKET_BENCHMARKS = POLYMER_MARKET_BENCHMARKS
+
     def calculate_pouch_cost(
         self,
         material: Dict[str, Any],
