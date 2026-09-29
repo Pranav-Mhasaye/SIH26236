@@ -1,0 +1,454 @@
+Done. I created a **traceable starter packaging-material dataset for SIH26236** using values from NIFTEM-T and FAO sources, while preserving the measurement conditions instead of mixing incompatible OTR/WVTR values. NIFTEM-T provides polymer-property data for materials such as LDPE, HDPE, PP, PET, PVdC and others. ([NIFTEM-T][1]) FAO provides additional film and laminate data with explicit test conditions. ([FAOHome][2])
+
+### 📦 Files
+
+* **[Download Excel dataset](sandbox:/mnt/data/SIH26236_packaging_material_dataset.xlsx)**
+* **[Download CSV dataset](sandbox:/mnt/data/SIH26236_packaging_materials.csv)**
+
+### What's inside
+
+**29 literature-derived material/structure records**, including:
+
+* LDPE
+* HDPE
+* LLDPE
+* PP
+* PET
+* PVdC
+* EVOH/EVAL
+* PA
+* PVC
+* PS
+* Metallized PET
+* PET/LDPE
+* PVdC-coated PET
+* Various laminates
+
+The Excel contains three sheets:
+
+1. **`packaging_materials`** — actual dataset
+2. **`source_registry`** — where every dataset source came from
+3. **`README`** — limitations and next steps
+
+I also included **OTR, WVTR, thickness, tensile/tear/impact properties, haze, light transmission, heat-sealing temperature, and test conditions** wherever the source provides them.
+
+### ⚠️ Important
+
+This is a **credible starter dataset, not yet our final AI-training dataset**. OTR/WVTR measurements depend heavily on temperature, humidity, thickness and test method, so we must normalize those before feeding them into ML. The recent **Food-Pack-Mapper** research specifically processed permeability data from 49 studies and provides a processed dataset through its supplementary material/GitHub. ([Nature][3])
+
+The next step should be to **merge the CIRAD/Food-Pack-Mapper dataset into this file**, then build the second half of SIH26236: the **food-commodity dataset** (moisture, fat, pH, respiration rate, shelf life, storage conditions) and connect the two through a recommendation model. The CIRAD dataset is a scientific-literature-derived dataset specifically containing food-packaging composition and O₂/CO₂/H₂O permeability information. ([pmc.ncbi.nlm.nih.gov][4])
+
+[1]: https://niftem-t.ac.in/olapp/pmfme/upload/mt_handbook_spice.pdf?utm_source=chatgpt.com "Table 3.1: Properties of major packaging resins used for fresh and processed food products"
+[2]: https://www.fao.org/4/w6864e/w6864e0b.htm?utm_source=chatgpt.com "2.5. Establishing production facilities"
+[3]: https://www.nature.com/articles/s41538-026-00741-7?utm_source=chatgpt.com "Mapping gas permeability of sustainable packaging materials to link food barrier needs by clustering algorithms | npj Science of Food"
+[4]: https://pmc.ncbi.nlm.nih.gov/articles/PMC8144675/?utm_source=chatgpt.com "Food packaging permeability and composition dataset dedicated to text-mining - PMC"
+
+
+
+
+
+Yes. I found several **credible, research-backed sources that can form the foundation of the packaging-material dataset for SIH26236**. The key is that we should **not use one random internet table**; we should combine authoritative datasets and normalize their units/conditions.
+
+## 1. 🥇 Best starting dataset: Food-Pack-Mapper
+
+A **2026 open-access study** specifically created a dataset to map food-packaging materials using **OTR and WVTR**, which is almost exactly what SIH26236 asks for.
+
+The study collected permeability data from **49 studies** and produced **295 permeability data points**, covering materials including **LDPE, HDPE, PLA, gelatin-based films and starch/gelatin/CMC blends**. It standardized OTR to `cm³/m²/day` and WVTR to `g/m²/day`. ([Nature][1])
+
+Even better, the authors provide the processed dataset and code through GitHub:
+
+[Food-Pack-Mapper dataset & code](https://github.com/whps0620/Food-Pack-Mapper/tree/main?utm_source=chatgpt.com)
+
+This should be **one of our core datasets**.
+
+---
+
+# 2. 🥈 CIRAD / Dataverse food-packaging dataset
+
+There is another very useful open dataset created specifically around **food packaging composition and gas permeability**.
+
+It was extracted from **50 scientific articles**, with annotation performed independently by three experts. It contains quantitative and symbolic information about packaging composition and permeability. ([ScienceDirect][2])
+
+The newer Food-Pack-Mapper study also identifies this as its raw-data source. ([Nature][3])
+
+[CIRAD Dataverse — Food packaging dataset](https://dataverse.cirad.fr/dataset.xhtml?persistentId=doi%3A10.18167%2FDVN1%2FU7HK8J&utm_source=chatgpt.com)
+
+This is particularly valuable because it gives us **scientific literature-derived data**, rather than manufacturer marketing claims.
+
+---
+
+# 3. 🥉 NIFTEM-T — Indian government source
+
+This one is particularly interesting for **our SIH project because it is an Indian government food-processing institute**.
+
+NIFTEM-T publishes a food-processing handbook containing a table of properties of packaging resins used for fresh and processed food products.
+
+It includes:
+
+* WVTR
+* OTR
+* Tensile properties
+* Impact strength
+* Haze
+* Light transmission
+* Heat-sealing characteristics
+* Material characteristics
+
+For example, the table contains data for **PVC, PVdC, PP, HDPE and LDPE**. ([NIFTEM-T][4])
+
+[NIFTEM-T — Packaging Resin Properties Handbook](https://niftem-t.ac.in/olapp/pmfme/upload/mt_handbook_spice.pdf?utm_source=chatgpt.com)
+
+### This is a very good source for our project.
+
+Because we're building this for **MoFPI**, using Indian food-processing literature as part of the dataset makes the project more relevant.
+
+---
+
+# 4. CFTRI — Indian packaging-material research
+
+The **Central Food Technological Research Institute (CFTRI)** has published research specifically on the physicochemical properties of food-packaging materials.
+
+The study evaluated materials including:
+
+* LDPE
+* HDPE
+* PVC
+* Polystyrene
+* Cellulose-based materials
+* Aluminium foil laminates
+
+and measured properties including:
+
+* WVTR
+* Tensile strength
+* Bursting strength
+* Tearing resistance
+* Elongation
+
+The CFTRI repository describes these measurements as useful for selecting packaging materials to achieve desired food shelf life. ([ePrints@CFTRI][5])
+
+[CFTRI — Physico-chemical properties of food packaging materials](https://ir.cftri.res.in/4848/?utm_source=chatgpt.com)
+
+This is another **excellent Indian reference**.
+
+---
+
+# 5. FAO — Packaging material properties
+
+The **Food and Agriculture Organization (FAO)** also publishes a useful table of packaging-film properties.
+
+It includes materials such as:
+
+* Cellulose
+* LDPE
+* HDPE
+* Polypropylene
+* Polyester
+* PVdC
+
+and properties including:
+
+* Thickness
+* Moisture transmission
+* Oxygen transmission
+* Strength
+* Light transmission
+* Sealing temperature. ([FAOHome][6])
+
+[FAO — Properties of selected packaging materials](https://www.fao.org/4/w6864e/w6864e0b.htm?utm_source=chatgpt.com)
+
+This is particularly useful for adding **mechanical and processing properties** that our main permeability datasets don't always contain.
+
+---
+
+# 6. Published scientific OTR/WVTR tables
+
+There are also peer-reviewed sources containing directly usable material-property tables.
+
+For example, one published table gives OTR and WVTR for structures such as:
+
+* PET
+* PET/PE
+* PET/PVDC/PE
+* PET/EVOH/PE
+* PET/aluminium-metallized/PE
+* PET/Al-foil/PE
+
+with specified thickness and testing conditions. ([DOI][7])
+
+Another scientific review provides OTR, WVTR, tensile strength and other properties for conventional and biodegradable polymers. ([DOI][8])
+
+---
+
+# 7. The important issue: DON'T simply combine the numbers
+
+This is extremely important for our AI model.
+
+Look at these examples:
+
+**OTR might be reported at:**
+
+`23°C / 50% RH`
+
+while another source reports:
+
+`25°C / 0% RH`
+
+and another may use a completely different test method.
+
+Those numbers **cannot simply be placed into one column and treated as equivalent**.
+
+The 2026 Food-Pack-Mapper study specifically had to standardize units and conditions before performing its clustering analysis. ([Nature][1])
+
+So our dataset needs columns like:
+
+```text
+Material
+Material Type
+Structure
+Thickness
+OTR
+OTR Unit
+OTR Temperature
+OTR RH
+WVTR
+WVTR Unit
+WVTR Temperature
+WVTR RH
+Test Method
+Source
+DOI
+Year
+```
+
+---
+
+# 8. Our proposed master dataset
+
+I'd build something like:
+
+| Column            | Example             |
+| ----------------- | ------------------- |
+| Material_ID       | MAT001              |
+| Material          | LDPE                |
+| Structure         | LDPE film           |
+| Material_Category | Polymer             |
+| Thickness_um      | 50                  |
+| OTR               | value               |
+| OTR_Unit          | cm³/m²/day          |
+| OTR_Temp_C        | 23                  |
+| OTR_RH            | 50                  |
+| WVTR              | value               |
+| WVTR_Unit         | g/m²/day            |
+| WVTR_Temp_C       | 38                  |
+| WVTR_RH           | 90                  |
+| Tensile_Strength  | value               |
+| Elongation        | value               |
+| Sealability       | value/category      |
+| Light_Barrier     | value/category      |
+| Recyclability     | category            |
+| Sustainable       | Yes/No              |
+| Source            | NIFTEM/Journal/etc. |
+| DOI/URL           | source              |
+| Confidence        | High/Medium/Low     |
+
+---
+
+# 9. But SIH26236 needs MORE than packaging data
+
+This is the important distinction.
+
+We need **two datasets**, not one.
+
+### Dataset A — Packaging Material Dataset
+
+```text
+Material
+OTR
+WVTR
+Thickness
+Strength
+Sealability
+Gas permeability
+Cost
+Recyclability
+...
+```
+
+### Dataset B — Food Commodity Dataset
+
+```text
+Food
+Moisture
+Fat
+pH
+Respiration rate
+Shelf-life target
+Storage temperature
+RH
+Storage type
+...
+```
+
+Then:
+
+```text
+       FOOD DATASET
+            ↓
+     Food Requirements
+            ↓
+            │
+            ▼
+     RECOMMENDATION ENGINE
+            ▲
+            │
+     Packaging Properties
+            ↑
+            │
+    MATERIAL DATASET
+```
+
+This is the actual intelligence of SIH26236.
+
+---
+
+# 10. We can make a third dataset: Food → Packaging requirements
+
+This would be the **most valuable dataset** for our AI.
+
+For example:
+
+| Food                   | Main Concern                | Required Barrier           | Packaging Type        |
+| ---------------------- | --------------------------- | -------------------------- | --------------------- |
+| Potato chips           | Oxidation + moisture        | High O₂ + moisture barrier | High-barrier laminate |
+| Fresh leafy vegetables | Respiration                 | Controlled gas exchange    | Breathable film       |
+| Frozen vegetables      | Moisture/freezer protection | Moisture barrier           | Suitable freezer film |
+| Biscuits               | Moisture pickup             | High moisture barrier      | Barrier film          |
+| Spices                 | Moisture + oxidation        | High barrier               | High-barrier laminate |
+
+**But these food-to-packaging relationships must be backed by scientific/industry sources.** We should not generate them ourselves and call them ground truth.
+
+---
+
+# 11. A particularly interesting new source
+
+The 2026 **npj Science of Food** paper is almost a proof-of-concept for what we're trying to build.
+
+It used OTR and WVTR data and applied:
+
+* K-Means
+* Gaussian Mixture Models
+* DBSCAN
+
+to cluster sustainable packaging materials according to barrier properties. DBSCAN achieved a reported silhouette score of **0.910** in their experiment. ([Nature][3])
+
+That means we could potentially say in our SIH presentation:
+
+> "Our recommendation engine uses experimentally reported packaging-property data and a data-driven similarity/recommendation approach."
+
+rather than claiming that we trained an AI model from random synthetic data.
+
+---
+
+# ⭐ What I recommend we use
+
+### Tier 1 — Core dataset
+
+**Food-Pack-Mapper / CIRAD**
+
+Use for:
+
+**OTR + WVTR + packaging composition**
+
+[Food-Pack-Mapper GitHub](https://github.com/whps0620/Food-Pack-Mapper/tree/main?utm_source=chatgpt.com)
+
+### Tier 2 — Indian validation
+
+**NIFTEM-T**
+
+Use for:
+
+**Indian food-processing context + polymer properties**
+
+[NIFTEM-T packaging handbook](https://niftem-t.ac.in/olapp/pmfme/upload/mt_handbook_spice.pdf?utm_source=chatgpt.com)
+
+### Tier 3 — Indian research
+
+**CFTRI**
+
+Use for:
+
+**Indian packaging-material experimental data**
+
+[CFTRI packaging-material study](https://ir.cftri.res.in/4848/?utm_source=chatgpt.com)
+
+### Tier 4 — General reference
+
+**FAO**
+
+Use for:
+
+**Material properties + packaging processing characteristics**
+
+[FAO packaging properties](https://www.fao.org/4/w6864e/w6864e0b.htm?utm_source=chatgpt.com)
+
+### Tier 5 — Recent scientific dataset
+
+**2026 npj Science of Food / Food-Pack-Mapper**
+
+Use for:
+
+**ML methodology + normalized OTR/WVTR dataset + sustainability recommendation research**
+
+[2026 Food-Pack-Mapper study](https://www.nature.com/articles/s41538-026-00741-7?utm_source=chatgpt.com)
+
+---
+
+## 🚨 One thing I would NOT do
+
+Don't create a dataset like:
+
+```text
+LDPE → good for chips
+PET → good for biscuits
+HDPE → good for milk
+```
+
+and then train Random Forest on it.
+
+That's too simplistic and judges can easily ask:
+
+> **"What is your ground truth?"**
+
+Instead, our system should be scientifically defensible:
+
+```text
+Scientific literature
+        ↓
+Extract raw measurements
+        ↓
+Normalize units + conditions
+        ↓
+Material-property database
+        ↓
+Food requirement database
+        ↓
+Recommendation rules/model
+        ↓
+Explainable recommendation
+```
+
+That gives us a much stronger SIH project.
+
+### Next step
+
+I can **download/inspect the actual Food-Pack-Mapper + CIRAD datasets and build a clean master CSV schema for SIH26236**, including identifying which columns we already have and which data (food properties, cost, sealability, mechanical strength, etc.) we still need to source.
+
+[1]: https://www.nature.com/articles/s41538-026-00741-7?utm_source=chatgpt.com "Mapping gas permeability of sustainable packaging materials to link food barrier needs by clustering algorithms | npj Science of Food"
+[2]: https://www.sciencedirect.com/science/article/pii/S2352340921004194?utm_source=chatgpt.com "Food packaging permeability and composition dataset dedicated to text‐mining - ScienceDirect"
+[3]: https://www.nature.com/articles/s41538-026-00741-7.pdf?utm_source=chatgpt.com "Mapping gas permeability of sustainable packaging materials to link food barrier needs by clustering algorithms | npj Science of Food"
+[4]: https://niftem-t.ac.in/olapp/pmfme/upload/mt_handbook_spice.pdf?utm_source=chatgpt.com "Table 3.1: Properties of major packaging resins used for fresh and processed food products"
+[5]: https://ir.cftri.res.in/4848/?utm_source=chatgpt.com "Physico-chemical properties of some flexible packaging materials used in food packaging. - ePrints@CFTRI"
+[6]: https://www.fao.org/4/w6864e/w6864e0b.htm?utm_source=chatgpt.com "2.5. Establishing production facilities"
+[7]: https://doi.org/10.1111/j.1750-3841.2008.00933.x?utm_source=chatgpt.com "Scientific Status Summary - Brody - 2008 - Journal of Food Science - Wiley Online Library"
+[8]: https://doi.org/10.1016/j.crfs.2021.07.005?utm_source=chatgpt.com "An overview of biodegradable packaging in food industry - ScienceDirect"

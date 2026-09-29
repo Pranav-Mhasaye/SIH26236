@@ -1,0 +1,18 @@
+I'll start by reading the PowerPoint skill so the deck is built properly.I'm rebuilding your SIH template as an editable .pptx and filling every section; first I'm checking which of the extracted images I can reuse.I've filled the whole Kalpataru template as an editable 6-slide PPT (cover plus five content slides), using the same layout, colours, logo and phone screenshots. I only checked that the file is valid; I haven't looked at the rendered slides, so open it and check that no text overflows a box.
+
+- **What changed:** I rebuilt the layout cleanly and left out the stray template shapes, empty markers and the mis-ordered workflow boxes. Your existing content is kept as it was: the challenges table, the latency table, the benefits table and the competitor gap analysis.
+- **What I wrote:**
+  - Slide 2: proposed solution, how it addresses the problem, a 7-step workflow with the four app screens, and innovation.
+  - Slide 3: tech stack and an architecture diagram.
+  - Slide 4: all six feasibility boxes.
+  - Slide 5: impact boxes, business model and future scope.
+  - Slide 6: research validation and a key-insight note.
+
+Please check these before submitting:
+1. **The cover doesn't match the idea.** The template's PS title is the NAWI / OIML R-76 test-report problem, but every other slide is about artisan commerce. I left the cover as you gave it. Confirm the PS ID and title for your team, or change the content.
+2. **"7M+ artisans" is from your template.** Add a source for it.
+3. **Tech stack and business model are my proposals.** Flutter, FastAPI, PostgreSQL and the revenue streams weren't in your template, so edit them to match your real plan.
+4. **Research references are from memory.** I cited Whisper (2022), NAFNet (ECCV 2022) and CLAHE (Zuiderveld, 1994), plus the GI Act, ODOP, GeM and MoSJE. Check the details before submitting.
+5. **The competitor ticks and crosses are yours.** I didn't verify them.
+
+I also haven't touched the PS 26236 deck from earlier; say if you want that one as a .pptx too.

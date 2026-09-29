@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+*/node_modules/
+package-lock.json.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Next.js build output
+.next/
+*/.next/
+out/
+build/
+dist/
+
+# Python caches and environments
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+*.egg-info/
+.eggs/
+
+# Environment Variables & Secrets
+.env
+.env*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE & OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Large binary files
+*.apk
+*.zip
+*.tar.gz
+
+# External Competitor Repositories (large cloned archives)
+Others/*
+!Others/links.txt.txt

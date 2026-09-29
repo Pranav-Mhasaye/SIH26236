@@ -1,0 +1,2452 @@
+[
+  {
+    "id": "mango",
+    "name": "Mango",
+    "category": "Fresh fruits",
+    "form": "produce",
+    "moisture": 82,
+    "fat": 0.4,
+    "ph": 4.2,
+    "resp20": 80,
+    "storage": "chilled",
+    "temp": 13,
+    "rh": 90,
+    "shelf_life": 21,
+    "pack_g": 1000,
+    "mode": "emap",
+    "note": null,
+    "mode_label": "Passive modified atmosphere",
+    "regional_names": {
+      "hi": "आम (Aam)",
+      "mr": "आंबा (Amba)",
+      "ta": "மாம்பழம் (Maambazham)",
+      "te": "మామిడి (Mamidi)"
+    },
+    "search_keywords": [
+      "mango",
+      "kesar",
+      "dasheri",
+      "chaunsa",
+      "amba",
+      "totapuri",
+      "aam",
+      "alphonso"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "3-5%",
+      "CO2_pct": "5-10%",
+      "N2_pct": "85-92%",
+      "desc": "Passive Equilibrium MAP"
+    },
+    "citation": {
+      "id": "FAO_6864",
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Properties of Selected Packaging Materials for Food Commodities (Doc W6864E)",
+      "year": "2018",
+      "url": "https://www.fao.org/4/w6864e/w6864e0b.htm",
+      "confidence": "High",
+      "type": "International Standard"
+    }
+  },
+  {
+    "id": "banana",
+    "name": "Banana (green)",
+    "category": "Fresh fruits",
+    "form": "produce",
+    "moisture": 75,
+    "fat": 0.3,
+    "ph": 4.8,
+    "resp20": 55,
+    "storage": "chilled",
+    "temp": 14,
+    "rh": 90,
+    "shelf_life": 21,
+    "pack_g": 1000,
+    "mode": "emap",
+    "note": null,
+    "mode_label": "Passive modified atmosphere",
+    "regional_names": {
+      "hi": "केला (Kela)",
+      "mr": "केळी (Keli)",
+      "ta": "வாழைப்பழம் (Vazhaipazham)",
+      "te": "అరటిపండు (Aratipandu)"
+    },
+    "search_keywords": [
+      "keli",
+      "green banana",
+      "raw banana",
+      "banana",
+      "kela",
+      "banana (green)",
+      "yelakki",
+      "robusta"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "3-5%",
+      "CO2_pct": "5-10%",
+      "N2_pct": "85-92%",
+      "desc": "Passive Equilibrium MAP"
+    },
+    "citation": {
+      "id": "FAO_6864",
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Properties of Selected Packaging Materials for Food Commodities (Doc W6864E)",
+      "year": "2018",
+      "url": "https://www.fao.org/4/w6864e/w6864e0b.htm",
+      "confidence": "High",
+      "type": "International Standard"
+    }
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "category": "Fresh fruits",
+    "form": "produce",
+    "moisture": 85,
+    "fat": 0.2,
+    "ph": 3.5,
+    "resp20": 22,
+    "storage": "chilled",
+    "temp": 1,
+    "rh": 90,
+    "shelf_life": 120,
+    "pack_g": 1000,
+    "mode": "emap",
+    "note": null,
+    "mode_label": "Passive modified atmosphere",
+    "regional_names": {
+      "hi": "सेब (Seb)",
+      "mr": "सफरचंद (Safarchand)",
+      "ta": "ஆப்பிள் (Apple)",
+      "te": "యాపిల్ (Apple)"
+    },
+    "search_keywords": [
+      "safarchand",
+      "shimla apple",
+      "kashmiri apple",
+      "seb",
+      "apple",
+      "fuji"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "3-5%",
+      "CO2_pct": "5-10%",
+      "N2_pct": "85-92%",
+      "desc": "Passive Equilibrium MAP"
+    },
+    "citation": {
+      "id": "FAO_6864",
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Properties of Selected Packaging Materials for Food Commodities (Doc W6864E)",
+      "year": "2018",
+      "url": "https://www.fao.org/4/w6864e/w6864e0b.htm",
+      "confidence": "High",
+      "type": "International Standard"
+    }
+  },
+  {
+    "id": "grapes",
+    "name": "Grapes",
+    "category": "Fresh fruits",
+    "form": "produce",
+    "moisture": 81,
+    "fat": 0.2,
+    "ph": 3.6,
+    "resp20": 28,
+    "storage": "chilled",
+    "temp": 0,
+    "rh": 92,
+    "shelf_life": 45,
+    "pack_g": 500,
+    "mode": "emap",
+    "note": "Add a sulphur dioxide pad against grey mould for export.",
+    "mode_label": "Passive modified atmosphere",
+    "regional_names": {
+      "hi": "अंगूर (Angoor)",
+      "mr": "द्राक्षे (Drakshe)",
+      "ta": "திராட்சை (Dhiratchai)",
+      "te": "ద్రాక్ష (Draksha)"
+    },
+    "search_keywords": [
+      "angoor",
+      "kishmish grapes",
+      "thompson seedless",
+      "drakshe",
+      "grapes"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "3-5%",
+      "CO2_pct": "5-10%",
+      "N2_pct": "85-92%",
+      "desc": "Passive Equilibrium MAP"
+    },
+    "citation": {
+      "id": "FAO_6864",
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Properties of Selected Packaging Materials for Food Commodities (Doc W6864E)",
+      "year": "2018",
+      "url": "https://www.fao.org/4/w6864e/w6864e0b.htm",
+      "confidence": "High",
+      "type": "International Standard"
+    }
+  },
+  {
+    "id": "strawberry",
+    "name": "Strawberry",
+    "category": "Fresh fruits",
+    "form": "produce",
+    "moisture": 91,
+    "fat": 0.3,
+    "ph": 3.4,
+    "resp20": 150,
+    "storage": "chilled",
+    "temp": 1,
+    "rh": 92,
+    "shelf_life": 8,
+    "pack_g": 250,
+    "mode": "emap",
+    "note": null,
+    "mode_label": "Passive modified atmosphere",
+    "regional_names": {
+      "hi": "स्ट्रॉबेरी (Strawberry)",
+      "mr": "स्ट्रॉबेरी (Mahabaleshwar Strawberry)",
+      "ta": "ஸ்ட்ராபெரி (Strawberry)",
+      "te": "స్ట్రాబెర్రీ (Strawberry)"
+    },
+    "search_keywords": [
+      "mahabaleshwar strawberry",
+      "strawberries",
+      "strawberry"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "3-5%",
+      "CO2_pct": "5-10%",
+      "N2_pct": "85-92%",
+      "desc": "Passive Equilibrium MAP"
+    },
+    "citation": {
+      "id": "FAO_6864",
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Properties of Selected Packaging Materials for Food Commodities (Doc W6864E)",
+      "year": "2018",
+      "url": "https://www.fao.org/4/w6864e/w6864e0b.htm",
+      "confidence": "High",
+      "type": "International Standard"
+    }
+  },
+  {
+    "id": "pomegranate",
+    "name": "Pomegranate",
+    "category": "Fresh fruits",
+    "form": "produce",
+    "moisture": 78,
+    "fat": 1.2,
+    "ph": 3.4,
+    "resp20": 20,
+    "storage": "chilled",
+    "temp": 6,
+    "rh": 90,
+    "shelf_life": 75,
+    "pack_g": 1000,
+    "mode": "emap",
+    "note": null,
+    "mode_label": "Passive modified atmosphere",
+    "regional_names": {
+      "hi": "अनार (Anaar)",
+      "mr": "डाळिंब (Dalimb)",
+      "ta": "மாதுளை (Maadhulai)",
+      "te": "దానిమ్మ (Danimma)"
+    },
+    "search_keywords": [
+      "dalimb",
+      "anar",
+      "pomegranate",
+      "anaar",
+      "bhagwa"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "3-5%",
+      "CO2_pct": "5-10%",
+      "N2_pct": "85-92%",
+      "desc": "Passive Equilibrium MAP"
+    },
+    "citation": {
+      "id": "FAO_6864",
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Properties of Selected Packaging Materials for Food Commodities (Doc W6864E)",
+      "year": "2018",
+      "url": "https://www.fao.org/4/w6864e/w6864e0b.htm",
+      "confidence": "High",
+      "type": "International Standard"
+    }
+  },
+  {
+    "id": "litchi",
+    "name": "Litchi",
+    "category": "Fresh fruits",
+    "form": "produce",
+    "moisture": 82,
+    "fat": 0.4,
+    "ph": 4.4,
+    "resp20": 60,
+    "storage": "chilled",
+    "temp": 3,
+    "rh": 92,
+    "shelf_life": 24,
+    "pack_g": 500,
+    "mode": "emap",
+    "note": null,
+    "mode_label": "Passive modified atmosphere",
+    "regional_names": {
+      "hi": "लीची (Litchi)",
+      "mr": "लीची (Litchi)",
+      "ta": "லிச்சி (Litchi)",
+      "te": "లిచీ (Litchi)"
+    },
+    "search_keywords": [
+      "lychee",
+      "shahi litchi",
+      "litchi",
+      "muzaffarpur litchi"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "3-5%",
+      "CO2_pct": "5-10%",
+      "N2_pct": "85-92%",
+      "desc": "Passive Equilibrium MAP"
+    },
+    "citation": {
+      "id": "FAO_6864",
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Properties of Selected Packaging Materials for Food Commodities (Doc W6864E)",
+      "year": "2018",
+      "url": "https://www.fao.org/4/w6864e/w6864e0b.htm",
+      "confidence": "High",
+      "type": "International Standard"
+    }
+  },
+  {
+    "id": "orange",
+    "name": "Orange or kinnow",
+    "category": "Fresh fruits",
+    "form": "produce",
+    "moisture": 87,
+    "fat": 0.2,
+    "ph": 3.7,
+    "resp20": 25,
+    "storage": "chilled",
+    "temp": 5,
+    "rh": 90,
+    "shelf_life": 50,
+    "pack_g": 1000,
+    "mode": "emap",
+    "note": null,
+    "mode_label": "Passive modified atmosphere",
+    "regional_names": {
+      "hi": "संतरा / किन्नू (Santra/Kinnow)",
+      "mr": "संत्रे (Santre)",
+      "ta": "ஆரஞ்சு (Orange)",
+      "te": "నారింజ (Narinja)"
+    },
+    "search_keywords": [
+      "nagpur orange",
+      "santra",
+      "orange or kinnow",
+      "orange",
+      "kinnow",
+      "mandarin"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "3-5%",
+      "CO2_pct": "5-10%",
+      "N2_pct": "85-92%",
+      "desc": "Passive Equilibrium MAP"
+    },
+    "citation": {
+      "id": "FAO_6864",
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Properties of Selected Packaging Materials for Food Commodities (Doc W6864E)",
+      "year": "2018",
+      "url": "https://www.fao.org/4/w6864e/w6864e0b.htm",
+      "confidence": "High",
+      "type": "International Standard"
+    }
+  },
+  {
+    "id": "tomato",
+    "name": "Tomato",
+    "category": "Fresh vegetables",
+    "form": "produce",
+    "moisture": 94,
+    "fat": 0.2,
+    "ph": 4.3,
+    "resp20": 38,
+    "storage": "chilled",
+    "temp": 12,
+    "rh": 90,
+    "shelf_life": 18,
+    "pack_g": 500,
+    "mode": "emap",
+    "note": null,
+    "mode_label": "Passive modified atmosphere",
+    "regional_names": {
+      "hi": "टमाटर (Tamatar)",
+      "mr": "टोमॅटो (Tomato)",
+      "ta": "தக்காளி (Thakkali)",
+      "te": "టమోటా (Tomato)"
+    },
+    "search_keywords": [
+      "tomato",
+      "desi tamatar",
+      "tamatar",
+      "thakkali",
+      "hybrid tomato"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "3-5%",
+      "CO2_pct": "5-10%",
+      "N2_pct": "85-92%",
+      "desc": "Passive Equilibrium MAP"
+    },
+    "citation": {
+      "id": "FAO_6864",
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Properties of Selected Packaging Materials for Food Commodities (Doc W6864E)",
+      "year": "2018",
+      "url": "https://www.fao.org/4/w6864e/w6864e0b.htm",
+      "confidence": "High",
+      "type": "International Standard"
+    }
+  },
+  {
+    "id": "potato",
+    "name": "Potato",
+    "category": "Fresh vegetables",
+    "form": "produce",
+    "moisture": 79,
+    "fat": 0.1,
+    "ph": 5.8,
+    "resp20": 18,
+    "storage": "chilled",
+    "temp": 10,
+    "rh": 90,
+    "shelf_life": 75,
+    "pack_g": 5000,
+    "mode": "ventilated",
+    "note": "Light turns potatoes green: use an opaque or tinted pack on the shelf.",
+    "mode_label": "Ventilated pack",
+    "regional_names": {
+      "hi": "आलू (Aloo)",
+      "mr": "बटाटा (Batata)",
+      "ta": "உருளைக்கிழங்கு (Urulaikilangu)",
+      "te": "బంగాళాదుంప (Bangaladumpa)"
+    },
+    "search_keywords": [
+      "jyoti",
+      "batata",
+      "chipsona",
+      "potato",
+      "aloo",
+      "alu",
+      "urulaikilangu"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "20.9% (Air)",
+      "CO2_pct": "0.04%",
+      "N2_pct": "78.1%",
+      "desc": "Standard Ambient Atmosphere"
+    },
+    "citation": {
+      "id": "FAO_6864",
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Properties of Selected Packaging Materials for Food Commodities (Doc W6864E)",
+      "year": "2018",
+      "url": "https://www.fao.org/4/w6864e/w6864e0b.htm",
+      "confidence": "High",
+      "type": "International Standard"
+    }
+  },
+  {
+    "id": "onion",
+    "name": "Onion",
+    "category": "Fresh vegetables",
+    "form": "produce",
+    "moisture": 87,
+    "fat": 0.1,
+    "ph": 5.5,
+    "resp20": 14,
+    "storage": "ambient",
+    "temp": 25,
+    "rh": 65,
+    "shelf_life": 60,
+    "pack_g": 5000,
+    "mode": "ventilated",
+    "note": "Onions need dry air moving over them. Any closed film makes them rot or sprout.",
+    "mode_label": "Ventilated pack",
+    "regional_names": {
+      "hi": "प्याज (Pyaaz)",
+      "mr": "कांदा (Kanda)",
+      "ta": "வெங்காயம் (Vengayam)",
+      "te": "ఉల్లిపాయ (Ullipaya)"
+    },
+    "search_keywords": [
+      "kanda",
+      "vengayam",
+      "nasik onion",
+      "onion",
+      "red onion",
+      "pyaaz"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "20.9% (Air)",
+      "CO2_pct": "0.04%",
+      "N2_pct": "78.1%",
+      "desc": "Standard Ambient Atmosphere"
+    },
+    "citation": {
+      "id": "FAO_6864",
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Properties of Selected Packaging Materials for Food Commodities (Doc W6864E)",
+      "year": "2018",
+      "url": "https://www.fao.org/4/w6864e/w6864e0b.htm",
+      "confidence": "High",
+      "type": "International Standard"
+    }
+  },
+  {
+    "id": "leafy-greens",
+    "name": "Spinach and leafy greens",
+    "category": "Fresh vegetables",
+    "form": "produce",
+    "moisture": 92,
+    "fat": 0.4,
+    "ph": 6.5,
+    "resp20": 210,
+    "storage": "chilled",
+    "temp": 2,
+    "rh": 95,
+    "shelf_life": 10,
+    "pack_g": 250,
+    "mode": "emap",
+    "note": null,
+    "mode_label": "Passive modified atmosphere",
+    "regional_names": {
+      "hi": "पालक व हरी पत्तियां (Palak/Saag)",
+      "mr": "पालक (Palak)",
+      "ta": "கீரை (Keerai)",
+      "te": "ఆకుకూరలు (Akukuralu)"
+    },
+    "search_keywords": [
+      "saag",
+      "palak",
+      "spinach and leafy greens",
+      "spinach",
+      "leafy-greens",
+      "methi",
+      "keerai",
+      "greens",
+      "coriander"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "3-5%",
+      "CO2_pct": "5-10%",
+      "N2_pct": "85-92%",
+      "desc": "Passive Equilibrium MAP"
+    },
+    "citation": {
+      "id": "FAO_6864",
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Properties of Selected Packaging Materials for Food Commodities (Doc W6864E)",
+      "year": "2018",
+      "url": "https://www.fao.org/4/w6864e/w6864e0b.htm",
+      "confidence": "High",
+      "type": "International Standard"
+    }
+  },
+  {
+    "id": "broccoli",
+    "name": "Broccoli",
+    "category": "Fresh vegetables",
+    "form": "produce",
+    "moisture": 89,
+    "fat": 0.4,
+    "ph": 6.5,
+    "resp20": 300,
+    "storage": "chilled",
+    "temp": 1,
+    "rh": 95,
+    "shelf_life": 20,
+    "pack_g": 400,
+    "mode": "emap",
+    "note": null,
+    "mode_label": "Passive modified atmosphere",
+    "regional_names": {
+      "hi": "Broccoli",
+      "mr": "Broccoli",
+      "ta": "Broccoli",
+      "te": "Broccoli"
+    },
+    "search_keywords": [
+      "broccoli"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "3-5%",
+      "CO2_pct": "5-10%",
+      "N2_pct": "85-92%",
+      "desc": "Passive Equilibrium MAP"
+    },
+    "citation": {
+      "id": "FAO_6864",
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Properties of Selected Packaging Materials for Food Commodities (Doc W6864E)",
+      "year": "2018",
+      "url": "https://www.fao.org/4/w6864e/w6864e0b.htm",
+      "confidence": "High",
+      "type": "International Standard"
+    }
+  },
+  {
+    "id": "cauliflower",
+    "name": "Cauliflower",
+    "category": "Fresh vegetables",
+    "form": "produce",
+    "moisture": 92,
+    "fat": 0.3,
+    "ph": 6.3,
+    "resp20": 85,
+    "storage": "chilled",
+    "temp": 1,
+    "rh": 95,
+    "shelf_life": 22,
+    "pack_g": 800,
+    "mode": "emap",
+    "note": null,
+    "mode_label": "Passive modified atmosphere",
+    "regional_names": {
+      "hi": "Cauliflower",
+      "mr": "Cauliflower",
+      "ta": "Cauliflower",
+      "te": "Cauliflower"
+    },
+    "search_keywords": [
+      "cauliflower"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "3-5%",
+      "CO2_pct": "5-10%",
+      "N2_pct": "85-92%",
+      "desc": "Passive Equilibrium MAP"
+    },
+    "citation": {
+      "id": "FAO_6864",
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Properties of Selected Packaging Materials for Food Commodities (Doc W6864E)",
+      "year": "2018",
+      "url": "https://www.fao.org/4/w6864e/w6864e0b.htm",
+      "confidence": "High",
+      "type": "International Standard"
+    }
+  },
+  {
+    "id": "mushroom",
+    "name": "Button mushroom",
+    "category": "Fresh vegetables",
+    "form": "produce",
+    "moisture": 92,
+    "fat": 0.3,
+    "ph": 6.4,
+    "resp20": 280,
+    "storage": "chilled",
+    "temp": 2,
+    "rh": 90,
+    "shelf_life": 7,
+    "pack_g": 200,
+    "mode": "emap",
+    "note": null,
+    "mode_label": "Passive modified atmosphere",
+    "regional_names": {
+      "hi": "Button mushroom",
+      "mr": "Button mushroom",
+      "ta": "Button mushroom",
+      "te": "Button mushroom"
+    },
+    "search_keywords": [
+      "button mushroom",
+      "mushroom"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "3-5%",
+      "CO2_pct": "5-10%",
+      "N2_pct": "85-92%",
+      "desc": "Passive Equilibrium MAP"
+    },
+    "citation": {
+      "id": "FAO_6864",
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Properties of Selected Packaging Materials for Food Commodities (Doc W6864E)",
+      "year": "2018",
+      "url": "https://www.fao.org/4/w6864e/w6864e0b.htm",
+      "confidence": "High",
+      "type": "International Standard"
+    }
+  },
+  {
+    "id": "okra",
+    "name": "Okra (bhindi)",
+    "category": "Fresh vegetables",
+    "form": "produce",
+    "moisture": 90,
+    "fat": 0.2,
+    "ph": 6.3,
+    "resp20": 260,
+    "storage": "chilled",
+    "temp": 8,
+    "rh": 92,
+    "shelf_life": 9,
+    "pack_g": 250,
+    "mode": "emap",
+    "note": null,
+    "mode_label": "Passive modified atmosphere",
+    "regional_names": {
+      "hi": "भिंडी (Bhindi)",
+      "mr": "भेंडी (Bhendi)",
+      "ta": "வெண்டைக்காய் (Vendaikkai)",
+      "te": "బెండకాయ (Bendakaya)"
+    },
+    "search_keywords": [
+      "bhendi",
+      "bhindi",
+      "okra (bhindi)",
+      "ladyfinger",
+      "vendaikkai",
+      "okra"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "3-5%",
+      "CO2_pct": "5-10%",
+      "N2_pct": "85-92%",
+      "desc": "Passive Equilibrium MAP"
+    },
+    "citation": {
+      "id": "FAO_6864",
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Properties of Selected Packaging Materials for Food Commodities (Doc W6864E)",
+      "year": "2018",
+      "url": "https://www.fao.org/4/w6864e/w6864e0b.htm",
+      "confidence": "High",
+      "type": "International Standard"
+    }
+  },
+  {
+    "id": "capsicum",
+    "name": "Capsicum",
+    "category": "Fresh vegetables",
+    "form": "produce",
+    "moisture": 93,
+    "fat": 0.3,
+    "ph": 5.5,
+    "resp20": 38,
+    "storage": "chilled",
+    "temp": 8,
+    "rh": 92,
+    "shelf_life": 20,
+    "pack_g": 500,
+    "mode": "emap",
+    "note": null,
+    "mode_label": "Passive modified atmosphere",
+    "regional_names": {
+      "hi": "Capsicum",
+      "mr": "Capsicum",
+      "ta": "Capsicum",
+      "te": "Capsicum"
+    },
+    "search_keywords": [
+      "capsicum"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "3-5%",
+      "CO2_pct": "5-10%",
+      "N2_pct": "85-92%",
+      "desc": "Passive Equilibrium MAP"
+    },
+    "citation": {
+      "id": "FAO_6864",
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Properties of Selected Packaging Materials for Food Commodities (Doc W6864E)",
+      "year": "2018",
+      "url": "https://www.fao.org/4/w6864e/w6864e0b.htm",
+      "confidence": "High",
+      "type": "International Standard"
+    }
+  },
+  {
+    "id": "green-peas",
+    "name": "Green peas (shelled)",
+    "category": "Fresh vegetables",
+    "form": "produce",
+    "moisture": 79,
+    "fat": 0.4,
+    "ph": 6.6,
+    "resp20": 250,
+    "storage": "chilled",
+    "temp": 1,
+    "rh": 95,
+    "shelf_life": 8,
+    "pack_g": 250,
+    "mode": "emap",
+    "note": null,
+    "mode_label": "Passive modified atmosphere",
+    "regional_names": {
+      "hi": "हरी मटर (Hari Matar)",
+      "mr": "मटार (Matar)",
+      "ta": "பச்சை பட்டாணி (Pachai Pattani)",
+      "te": "పచ్చి బఠానీ (Pachi Batani)"
+    },
+    "search_keywords": [
+      "shelled peas",
+      "peas",
+      "green peas",
+      "hari matar",
+      "green-peas",
+      "matar",
+      "green peas (shelled)"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "3-5%",
+      "CO2_pct": "5-10%",
+      "N2_pct": "85-92%",
+      "desc": "Passive Equilibrium MAP"
+    },
+    "citation": {
+      "id": "FAO_6864",
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Properties of Selected Packaging Materials for Food Commodities (Doc W6864E)",
+      "year": "2018",
+      "url": "https://www.fao.org/4/w6864e/w6864e0b.htm",
+      "confidence": "High",
+      "type": "International Standard"
+    }
+  },
+  {
+    "id": "carrot",
+    "name": "Carrot",
+    "category": "Fresh vegetables",
+    "form": "produce",
+    "moisture": 88,
+    "fat": 0.2,
+    "ph": 6.2,
+    "resp20": 30,
+    "storage": "chilled",
+    "temp": 1,
+    "rh": 95,
+    "shelf_life": 60,
+    "pack_g": 1000,
+    "mode": "emap",
+    "note": null,
+    "mode_label": "Passive modified atmosphere",
+    "regional_names": {
+      "hi": "Carrot",
+      "mr": "Carrot",
+      "ta": "Carrot",
+      "te": "Carrot"
+    },
+    "search_keywords": [
+      "carrot"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "3-5%",
+      "CO2_pct": "5-10%",
+      "N2_pct": "85-92%",
+      "desc": "Passive Equilibrium MAP"
+    },
+    "citation": {
+      "id": "FAO_6864",
+      "institution": "Food and Agriculture Organization of the United Nations (FAO)",
+      "title": "Properties of Selected Packaging Materials for Food Commodities (Doc W6864E)",
+      "year": "2018",
+      "url": "https://www.fao.org/4/w6864e/w6864e0b.htm",
+      "confidence": "High",
+      "type": "International Standard"
+    }
+  },
+  {
+    "id": "potato-chips",
+    "name": "Potato chips",
+    "category": "Snacks and bakery",
+    "form": "fragile",
+    "moisture": 2,
+    "fat": 35,
+    "ph": 6.0,
+    "resp20": 0,
+    "storage": "ambient",
+    "temp": 25,
+    "rh": 65,
+    "shelf_life": 120,
+    "pack_g": 100,
+    "mode": "n2_flush",
+    "note": null,
+    "mode_label": "Nitrogen flush",
+    "regional_names": {
+      "hi": "आलू चिप्स (Aloo Chips)",
+      "mr": "बटाटा वेफर्स (Batata Wafers)",
+      "ta": "உருளைக்கிழங்கு சிப்ஸ் (Potato Chips)",
+      "te": "ఆలూ చిప్స్ (Aloo Chips)"
+    },
+    "search_keywords": [
+      "namkeen chips",
+      "wafers",
+      "potato-chips",
+      "crisps",
+      "potato chips",
+      "chips"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "< 1.0%",
+      "CO2_pct": "0%",
+      "N2_pct": "99.0%+",
+      "desc": "Nitrogen Flush to prevent lipid oxidation"
+    },
+    "citation": {
+      "id": "NIFTEM_T",
+      "institution": "National Institute of Food Technology, Entrepreneurship and Management (NIFTEM-T), MoFPI",
+      "title": "Packaging Materials & Testing Handbook for Spices and Processed Foods",
+      "year": "2023",
+      "url": "https://niftem-t.ac.in/olapp/pmfme/upload/mt_handbook_spice.pdf",
+      "confidence": "High",
+      "type": "Government Food Processing Institute"
+    }
+  },
+  {
+    "id": "namkeen",
+    "name": "Namkeen and bhujia",
+    "category": "Snacks and bakery",
+    "form": "fragile",
+    "moisture": 3,
+    "fat": 38,
+    "ph": 6.2,
+    "resp20": 0,
+    "storage": "ambient",
+    "temp": 25,
+    "rh": 65,
+    "shelf_life": 120,
+    "pack_g": 200,
+    "mode": "n2_flush",
+    "note": null,
+    "mode_label": "Nitrogen flush",
+    "regional_names": {
+      "hi": "नमकीन व भुजिया (Namkeen/Bhujia)",
+      "mr": "फरसाण व शेव (Farsan/Shev)",
+      "ta": "நம்கீன் / மிக்சர் (Mixture)",
+      "te": "మిక్చర్ / కారప్పూస (Mixture)"
+    },
+    "search_keywords": [
+      "chivda",
+      "bhujia",
+      "namkeen and bhujia",
+      "sev",
+      "mixture",
+      "farsan",
+      "namkeen"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "< 1.0%",
+      "CO2_pct": "0%",
+      "N2_pct": "99.0%+",
+      "desc": "Nitrogen Flush to prevent lipid oxidation"
+    },
+    "citation": {
+      "id": "NIFTEM_T",
+      "institution": "National Institute of Food Technology, Entrepreneurship and Management (NIFTEM-T), MoFPI",
+      "title": "Packaging Materials & Testing Handbook for Spices and Processed Foods",
+      "year": "2023",
+      "url": "https://niftem-t.ac.in/olapp/pmfme/upload/mt_handbook_spice.pdf",
+      "confidence": "High",
+      "type": "Government Food Processing Institute"
+    }
+  },
+  {
+    "id": "biscuits",
+    "name": "Biscuits and cookies",
+    "category": "Snacks and bakery",
+    "form": "fragile",
+    "moisture": 3,
+    "fat": 18,
+    "ph": 6.8,
+    "resp20": 0,
+    "storage": "ambient",
+    "temp": 25,
+    "rh": 65,
+    "shelf_life": 180,
+    "pack_g": 150,
+    "mode": "air",
+    "note": null,
+    "mode_label": "Packed in air",
+    "regional_names": {
+      "hi": "बिस्कुट (Biscuits/Cookies)",
+      "mr": "बिस्किटे (Biscuits)",
+      "ta": "பிஸ்கட் (Biscuits)",
+      "te": "బిస్కెట్లు (Biscuits)"
+    },
+    "search_keywords": [
+      "biscuits",
+      "cookies",
+      "biscuits and cookies",
+      "glucose",
+      "biscuit",
+      "crackers",
+      "cookie"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "20.9% (Air)",
+      "CO2_pct": "0.04%",
+      "N2_pct": "78.1%",
+      "desc": "Standard Ambient Atmosphere"
+    },
+    "citation": {
+      "id": "NIFTEM_T",
+      "institution": "National Institute of Food Technology, Entrepreneurship and Management (NIFTEM-T), MoFPI",
+      "title": "Packaging Materials & Testing Handbook for Spices and Processed Foods",
+      "year": "2023",
+      "url": "https://niftem-t.ac.in/olapp/pmfme/upload/mt_handbook_spice.pdf",
+      "confidence": "High",
+      "type": "Government Food Processing Institute"
+    }
+  },
+  {
+    "id": "bread",
+    "name": "Bread",
+    "category": "Snacks and bakery",
+    "form": "solid",
+    "moisture": 37,
+    "fat": 3,
+    "ph": 5.5,
+    "resp20": 0,
+    "storage": "ambient",
+    "temp": 25,
+    "rh": 65,
+    "shelf_life": 5,
+    "pack_g": 400,
+    "mode": "air",
+    "note": "Mould, not the film, ends bread's shelf life. Cool the loaf fully before bagging.",
+    "mode_label": "Packed in air",
+    "regional_names": {
+      "hi": "Bread",
+      "mr": "Bread",
+      "ta": "Bread",
+      "te": "Bread"
+    },
+    "search_keywords": [
+      "bread"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "20.9% (Air)",
+      "CO2_pct": "0.04%",
+      "N2_pct": "78.1%",
+      "desc": "Standard Ambient Atmosphere"
+    },
+    "citation": {
+      "id": "NIFTEM_T",
+      "institution": "National Institute of Food Technology, Entrepreneurship and Management (NIFTEM-T), MoFPI",
+      "title": "Packaging Materials & Testing Handbook for Spices and Processed Foods",
+      "year": "2023",
+      "url": "https://niftem-t.ac.in/olapp/pmfme/upload/mt_handbook_spice.pdf",
+      "confidence": "High",
+      "type": "Government Food Processing Institute"
+    }
+  },
+  {
+    "id": "cake",
+    "name": "Packaged cake",
+    "category": "Snacks and bakery",
+    "form": "solid",
+    "moisture": 22,
+    "fat": 18,
+    "ph": 6.5,
+    "resp20": 0,
+    "storage": "ambient",
+    "temp": 25,
+    "rh": 65,
+    "shelf_life": 90,
+    "pack_g": 250,
+    "mode": "n2_flush",
+    "note": null,
+    "mode_label": "Nitrogen flush",
+    "regional_names": {
+      "hi": "Packaged cake",
+      "mr": "Packaged cake",
+      "ta": "Packaged cake",
+      "te": "Packaged cake"
+    },
+    "search_keywords": [
+      "cake",
+      "packaged cake"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "< 1.0%",
+      "CO2_pct": "0%",
+      "N2_pct": "99.0%+",
+      "desc": "Nitrogen Flush to prevent lipid oxidation"
+    },
+    "citation": {
+      "id": "NIFTEM_T",
+      "institution": "National Institute of Food Technology, Entrepreneurship and Management (NIFTEM-T), MoFPI",
+      "title": "Packaging Materials & Testing Handbook for Spices and Processed Foods",
+      "year": "2023",
+      "url": "https://niftem-t.ac.in/olapp/pmfme/upload/mt_handbook_spice.pdf",
+      "confidence": "High",
+      "type": "Government Food Processing Institute"
+    }
+  },
+  {
+    "id": "chocolate",
+    "name": "Chocolate",
+    "category": "Snacks and bakery",
+    "form": "solid",
+    "moisture": 1,
+    "fat": 32,
+    "ph": 6.0,
+    "resp20": 0,
+    "storage": "ambient",
+    "temp": 22,
+    "rh": 55,
+    "shelf_life": 270,
+    "pack_g": 50,
+    "mode": "air",
+    "note": "Above 28 °C fat bloom sets the shelf life whatever the wrapper.",
+    "mode_label": "Packed in air",
+    "regional_names": {
+      "hi": "Chocolate",
+      "mr": "Chocolate",
+      "ta": "Chocolate",
+      "te": "Chocolate"
+    },
+    "search_keywords": [
+      "chocolate"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "20.9% (Air)",
+      "CO2_pct": "0.04%",
+      "N2_pct": "78.1%",
+      "desc": "Standard Ambient Atmosphere"
+    },
+    "citation": {
+      "id": "NIFTEM_T",
+      "institution": "National Institute of Food Technology, Entrepreneurship and Management (NIFTEM-T), MoFPI",
+      "title": "Packaging Materials & Testing Handbook for Spices and Processed Foods",
+      "year": "2023",
+      "url": "https://niftem-t.ac.in/olapp/pmfme/upload/mt_handbook_spice.pdf",
+      "confidence": "High",
+      "type": "Government Food Processing Institute"
+    }
+  },
+  {
+    "id": "instant-noodles",
+    "name": "Instant noodles",
+    "category": "Snacks and bakery",
+    "form": "fragile",
+    "moisture": 6,
+    "fat": 18,
+    "ph": 6.5,
+    "resp20": 0,
+    "storage": "ambient",
+    "temp": 25,
+    "rh": 65,
+    "shelf_life": 240,
+    "pack_g": 70,
+    "mode": "air",
+    "note": null,
+    "mode_label": "Packed in air",
+    "regional_names": {
+      "hi": "Instant noodles",
+      "mr": "Instant noodles",
+      "ta": "Instant noodles",
+      "te": "Instant noodles"
+    },
+    "search_keywords": [
+      "instant-noodles",
+      "instant noodles"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "20.9% (Air)",
+      "CO2_pct": "0.04%",
+      "N2_pct": "78.1%",
+      "desc": "Standard Ambient Atmosphere"
+    },
+    "citation": {
+      "id": "NIFTEM_T",
+      "institution": "National Institute of Food Technology, Entrepreneurship and Management (NIFTEM-T), MoFPI",
+      "title": "Packaging Materials & Testing Handbook for Spices and Processed Foods",
+      "year": "2023",
+      "url": "https://niftem-t.ac.in/olapp/pmfme/upload/mt_handbook_spice.pdf",
+      "confidence": "High",
+      "type": "Government Food Processing Institute"
+    }
+  },
+  {
+    "id": "breakfast-cereal",
+    "name": "Breakfast cereal",
+    "category": "Snacks and bakery",
+    "form": "fragile",
+    "moisture": 3,
+    "fat": 1,
+    "ph": 6.5,
+    "resp20": 0,
+    "storage": "ambient",
+    "temp": 25,
+    "rh": 65,
+    "shelf_life": 240,
+    "pack_g": 500,
+    "mode": "air",
+    "note": null,
+    "mode_label": "Packed in air",
+    "regional_names": {
+      "hi": "Breakfast cereal",
+      "mr": "Breakfast cereal",
+      "ta": "Breakfast cereal",
+      "te": "Breakfast cereal"
+    },
+    "search_keywords": [
+      "breakfast-cereal",
+      "breakfast cereal"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "20.9% (Air)",
+      "CO2_pct": "0.04%",
+      "N2_pct": "78.1%",
+      "desc": "Standard Ambient Atmosphere"
+    },
+    "citation": {
+      "id": "NIFTEM_T",
+      "institution": "National Institute of Food Technology, Entrepreneurship and Management (NIFTEM-T), MoFPI",
+      "title": "Packaging Materials & Testing Handbook for Spices and Processed Foods",
+      "year": "2023",
+      "url": "https://niftem-t.ac.in/olapp/pmfme/upload/mt_handbook_spice.pdf",
+      "confidence": "High",
+      "type": "Government Food Processing Institute"
+    }
+  },
+  {
+    "id": "roasted-nuts",
+    "name": "Roasted nuts",
+    "category": "Snacks and bakery",
+    "form": "granular",
+    "moisture": 3,
+    "fat": 47,
+    "ph": 6.3,
+    "resp20": 0,
+    "storage": "ambient",
+    "temp": 25,
+    "rh": 65,
+    "shelf_life": 180,
+    "pack_g": 200,
+    "mode": "n2_flush",
+    "note": null,
+    "mode_label": "Nitrogen flush",
+    "regional_names": {
+      "hi": "Roasted nuts",
+      "mr": "Roasted nuts",
+      "ta": "Roasted nuts",
+      "te": "Roasted nuts"
+    },
+    "search_keywords": [
+      "roasted-nuts",
+      "roasted nuts"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "< 1.0%",
+      "CO2_pct": "0%",
+      "N2_pct": "99.0%+",
+      "desc": "Nitrogen Flush to prevent lipid oxidation"
+    },
+    "citation": {
+      "id": "NIFTEM_T",
+      "institution": "National Institute of Food Technology, Entrepreneurship and Management (NIFTEM-T), MoFPI",
+      "title": "Packaging Materials & Testing Handbook for Spices and Processed Foods",
+      "year": "2023",
+      "url": "https://niftem-t.ac.in/olapp/pmfme/upload/mt_handbook_spice.pdf",
+      "confidence": "High",
+      "type": "Government Food Processing Institute"
+    }
+  },
+  {
+    "id": "wheat-flour",
+    "name": "Wheat flour (atta)",
+    "category": "Grains, flours and pulses",
+    "form": "powder",
+    "moisture": 12,
+    "fat": 1.7,
+    "ph": 6.2,
+    "resp20": 0,
+    "storage": "ambient",
+    "temp": 25,
+    "rh": 65,
+    "shelf_life": 120,
+    "pack_g": 1000,
+    "mode": "air",
+    "note": null,
+    "mode_label": "Packed in air",
+    "regional_names": {
+      "hi": "गेहूं का आटा (Atta)",
+      "mr": "गव्हाचे पीठ (Atta)",
+      "ta": "கோதுமை மாவு (Godhumai Maavu)",
+      "te": "గోధుమ పిండి (Godhuma Pindi)"
+    },
+    "search_keywords": [
+      "wheat-flour",
+      "atta",
+      "gehu atta",
+      "flour",
+      "wheat flour (atta)",
+      "wheat flour",
+      "chakki atta"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "20.9% (Air)",
+      "CO2_pct": "0.04%",
+      "N2_pct": "78.1%",
+      "desc": "Standard Ambient Atmosphere"
+    },
+    "citation": {
+      "id": "CFTRI_MYSORE",
+      "institution": "CSIR - Central Food Technological Research Institute (CFTRI), Mysore",
+      "title": "Physico-chemical properties of flexible packaging materials used in food packaging",
+      "year": "2021",
+      "url": "https://ir.cftri.res.in/4848/",
+      "confidence": "High",
+      "type": "National Research Laboratory"
+    }
+  },
+  {
+    "id": "rice",
+    "name": "Rice",
+    "category": "Grains, flours and pulses",
+    "form": "granular",
+    "moisture": 12.5,
+    "fat": 0.6,
+    "ph": 6.5,
+    "resp20": 0,
+    "storage": "ambient",
+    "temp": 25,
+    "rh": 65,
+    "shelf_life": 365,
+    "pack_g": 5000,
+    "mode": "air",
+    "note": null,
+    "mode_label": "Packed in air",
+    "regional_names": {
+      "hi": "Rice",
+      "mr": "Rice",
+      "ta": "Rice",
+      "te": "Rice"
+    },
+    "search_keywords": [
+      "rice"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "20.9% (Air)",
+      "CO2_pct": "0.04%",
+      "N2_pct": "78.1%",
+      "desc": "Standard Ambient Atmosphere"
+    },
+    "citation": {
+      "id": "CFTRI_MYSORE",
+      "institution": "CSIR - Central Food Technological Research Institute (CFTRI), Mysore",
+      "title": "Physico-chemical properties of flexible packaging materials used in food packaging",
+      "year": "2021",
+      "url": "https://ir.cftri.res.in/4848/",
+      "confidence": "High",
+      "type": "National Research Laboratory"
+    }
+  },
+  {
+    "id": "pulses",
+    "name": "Pulses (dal)",
+    "category": "Grains, flours and pulses",
+    "form": "granular",
+    "moisture": 10.5,
+    "fat": 1.5,
+    "ph": 6.4,
+    "resp20": 0,
+    "storage": "ambient",
+    "temp": 25,
+    "rh": 65,
+    "shelf_life": 270,
+    "pack_g": 1000,
+    "mode": "air",
+    "note": null,
+    "mode_label": "Packed in air",
+    "regional_names": {
+      "hi": "Pulses (dal)",
+      "mr": "Pulses (dal)",
+      "ta": "Pulses (dal)",
+      "te": "Pulses (dal)"
+    },
+    "search_keywords": [
+      "pulses (dal)",
+      "pulses"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "20.9% (Air)",
+      "CO2_pct": "0.04%",
+      "N2_pct": "78.1%",
+      "desc": "Standard Ambient Atmosphere"
+    },
+    "citation": {
+      "id": "CFTRI_MYSORE",
+      "institution": "CSIR - Central Food Technological Research Institute (CFTRI), Mysore",
+      "title": "Physico-chemical properties of flexible packaging materials used in food packaging",
+      "year": "2021",
+      "url": "https://ir.cftri.res.in/4848/",
+      "confidence": "High",
+      "type": "National Research Laboratory"
+    }
+  },
+  {
+    "id": "bulk-grain",
+    "name": "Wheat grain, farm storage",
+    "category": "Grains, flours and pulses",
+    "form": "granular",
+    "moisture": 12,
+    "fat": 1.8,
+    "ph": 6.3,
+    "resp20": 0,
+    "storage": "ambient",
+    "temp": 28,
+    "rh": 70,
+    "shelf_life": 270,
+    "pack_g": 50000,
+    "mode": "hermetic",
+    "note": "In an airtight bag, insects use up the oxygen and die without fumigation.",
+    "mode_label": "Hermetic storage",
+    "regional_names": {
+      "hi": "Wheat grain, farm storage",
+      "mr": "Wheat grain, farm storage",
+      "ta": "Wheat grain, farm storage",
+      "te": "Wheat grain, farm storage"
+    },
+    "search_keywords": [
+      "bulk-grain",
+      "wheat grain, farm storage"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "20.9% (Air)",
+      "CO2_pct": "0.04%",
+      "N2_pct": "78.1%",
+      "desc": "Standard Ambient Atmosphere"
+    },
+    "citation": {
+      "id": "CFTRI_MYSORE",
+      "institution": "CSIR - Central Food Technological Research Institute (CFTRI), Mysore",
+      "title": "Physico-chemical properties of flexible packaging materials used in food packaging",
+      "year": "2021",
+      "url": "https://ir.cftri.res.in/4848/",
+      "confidence": "High",
+      "type": "National Research Laboratory"
+    }
+  },
+  {
+    "id": "sugar",
+    "name": "Sugar",
+    "category": "Grains, flours and pulses",
+    "form": "granular",
+    "moisture": 0.1,
+    "fat": 0,
+    "ph": 7.0,
+    "resp20": 0,
+    "storage": "ambient",
+    "temp": 25,
+    "rh": 65,
+    "shelf_life": 540,
+    "pack_g": 1000,
+    "mode": "air",
+    "note": null,
+    "mode_label": "Packed in air",
+    "regional_names": {
+      "hi": "Sugar",
+      "mr": "Sugar",
+      "ta": "Sugar",
+      "te": "Sugar"
+    },
+    "search_keywords": [
+      "sugar"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "20.9% (Air)",
+      "CO2_pct": "0.04%",
+      "N2_pct": "78.1%",
+      "desc": "Standard Ambient Atmosphere"
+    },
+    "citation": {
+      "id": "CFTRI_MYSORE",
+      "institution": "CSIR - Central Food Technological Research Institute (CFTRI), Mysore",
+      "title": "Physico-chemical properties of flexible packaging materials used in food packaging",
+      "year": "2021",
+      "url": "https://ir.cftri.res.in/4848/",
+      "confidence": "High",
+      "type": "National Research Laboratory"
+    }
+  },
+  {
+    "id": "jaggery",
+    "name": "Jaggery",
+    "category": "Grains, flours and pulses",
+    "form": "solid",
+    "moisture": 6,
+    "fat": 0.1,
+    "ph": 5.8,
+    "resp20": 0,
+    "storage": "ambient",
+    "temp": 25,
+    "rh": 65,
+    "shelf_life": 180,
+    "pack_g": 500,
+    "mode": "air",
+    "note": null,
+    "mode_label": "Packed in air",
+    "regional_names": {
+      "hi": "Jaggery",
+      "mr": "Jaggery",
+      "ta": "Jaggery",
+      "te": "Jaggery"
+    },
+    "search_keywords": [
+      "jaggery"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "20.9% (Air)",
+      "CO2_pct": "0.04%",
+      "N2_pct": "78.1%",
+      "desc": "Standard Ambient Atmosphere"
+    },
+    "citation": {
+      "id": "CFTRI_MYSORE",
+      "institution": "CSIR - Central Food Technological Research Institute (CFTRI), Mysore",
+      "title": "Physico-chemical properties of flexible packaging materials used in food packaging",
+      "year": "2021",
+      "url": "https://ir.cftri.res.in/4848/",
+      "confidence": "High",
+      "type": "National Research Laboratory"
+    }
+  },
+  {
+    "id": "milk-powder",
+    "name": "Milk powder",
+    "category": "Dairy",
+    "form": "powder",
+    "moisture": 3.5,
+    "fat": 26,
+    "ph": 6.6,
+    "resp20": 0,
+    "storage": "ambient",
+    "temp": 25,
+    "rh": 65,
+    "shelf_life": 365,
+    "pack_g": 500,
+    "mode": "n2_flush",
+    "note": null,
+    "mode_label": "Nitrogen flush",
+    "regional_names": {
+      "hi": "दूध पाउडर (Milk Powder)",
+      "mr": "दुधाची पावडर (Milk Powder)",
+      "ta": "பால் பவுடர் (Milk Powder)",
+      "te": "పాలు పొడి (Milk Powder)"
+    },
+    "search_keywords": [
+      "milk-powder",
+      "milk powder",
+      "skimmed milk powder",
+      "dairy whitener",
+      "smp"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "< 1.0%",
+      "CO2_pct": "0%",
+      "N2_pct": "99.0%+",
+      "desc": "Nitrogen Flush to prevent lipid oxidation"
+    },
+    "citation": {
+      "id": "NIFTEM_T",
+      "institution": "National Institute of Food Technology, Entrepreneurship and Management (NIFTEM-T), MoFPI",
+      "title": "Packaging Materials & Testing Handbook for Spices and Processed Foods",
+      "year": "2023",
+      "url": "https://niftem-t.ac.in/olapp/pmfme/upload/mt_handbook_spice.pdf",
+      "confidence": "High",
+      "type": "Government Food Processing Institute"
+    }
+  },
+  {
+    "id": "spice-powder",
+    "name": "Spice powder (turmeric, chilli)",
+    "category": "Spices, tea and coffee",
+    "form": "powder",
+    "moisture": 9,
+    "fat": 8,
+    "ph": 6.0,
+    "resp20": 0,
+    "storage": "ambient",
+    "temp": 25,
+    "rh": 65,
+    "shelf_life": 365,
+    "pack_g": 100,
+    "mode": "air",
+    "note": null,
+    "mode_label": "Packed in air",
+    "regional_names": {
+      "hi": "मसाला पाउडर - हल्दी/मिर्च (Spice Powder)",
+      "mr": "मसाला पावडर (Masala)",
+      "ta": "மசாலா தூள் (Masala Powder)",
+      "te": "మసాలా పొడి (Masala Powder)"
+    },
+    "search_keywords": [
+      "coriander powder",
+      "spice powder (turmeric, chilli)",
+      "mirchi",
+      "garam masala",
+      "spice",
+      "turmeric",
+      "haldi",
+      "spice-powder",
+      "chilli"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "20.9% (Air)",
+      "CO2_pct": "0.04%",
+      "N2_pct": "78.1%",
+      "desc": "Standard Ambient Atmosphere"
+    },
+    "citation": {
+      "id": "CFTRI_MYSORE",
+      "institution": "CSIR - Central Food Technological Research Institute (CFTRI), Mysore",
+      "title": "Physico-chemical properties of flexible packaging materials used in food packaging",
+      "year": "2021",
+      "url": "https://ir.cftri.res.in/4848/",
+      "confidence": "High",
+      "type": "National Research Laboratory"
+    }
+  },
+  {
+    "id": "tea",
+    "name": "Tea",
+    "category": "Spices, tea and coffee",
+    "form": "granular",
+    "moisture": 5,
+    "fat": 1,
+    "ph": 5.5,
+    "resp20": 0,
+    "storage": "ambient",
+    "temp": 25,
+    "rh": 65,
+    "shelf_life": 365,
+    "pack_g": 250,
+    "mode": "air",
+    "note": null,
+    "mode_label": "Packed in air",
+    "regional_names": {
+      "hi": "चाय पत्ती (Tea Leaf)",
+      "mr": "चहा पावडर (Chaha)",
+      "ta": "தேயிலை (Tea Leaf)",
+      "te": "టీ పొడి (Tea Powder)"
+    },
+    "search_keywords": [
+      "ctc tea",
+      "chai",
+      "darjeeling tea",
+      "tea",
+      "assam tea",
+      "tea leaves"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "20.9% (Air)",
+      "CO2_pct": "0.04%",
+      "N2_pct": "78.1%",
+      "desc": "Standard Ambient Atmosphere"
+    },
+    "citation": {
+      "id": "CFTRI_MYSORE",
+      "institution": "CSIR - Central Food Technological Research Institute (CFTRI), Mysore",
+      "title": "Physico-chemical properties of flexible packaging materials used in food packaging",
+      "year": "2021",
+      "url": "https://ir.cftri.res.in/4848/",
+      "confidence": "High",
+      "type": "National Research Laboratory"
+    }
+  },
+  {
+    "id": "coffee",
+    "name": "Roasted ground coffee",
+    "category": "Spices, tea and coffee",
+    "form": "powder",
+    "moisture": 3,
+    "fat": 13,
+    "ph": 5.2,
+    "resp20": 0,
+    "storage": "ambient",
+    "temp": 25,
+    "rh": 65,
+    "shelf_life": 270,
+    "pack_g": 200,
+    "mode": "n2_flush",
+    "note": "Fresh-roasted coffee releases carbon dioxide: fit a one-way degassing valve.",
+    "mode_label": "Nitrogen flush",
+    "regional_names": {
+      "hi": "Roasted ground coffee",
+      "mr": "Roasted ground coffee",
+      "ta": "Roasted ground coffee",
+      "te": "Roasted ground coffee"
+    },
+    "search_keywords": [
+      "coffee",
+      "roasted ground coffee"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "< 1.0%",
+      "CO2_pct": "0%",
+      "N2_pct": "99.0%+",
+      "desc": "Nitrogen Flush to prevent lipid oxidation"
+    },
+    "citation": {
+      "id": "CFTRI_MYSORE",
+      "institution": "CSIR - Central Food Technological Research Institute (CFTRI), Mysore",
+      "title": "Physico-chemical properties of flexible packaging materials used in food packaging",
+      "year": "2021",
+      "url": "https://ir.cftri.res.in/4848/",
+      "confidence": "High",
+      "type": "National Research Laboratory"
+    }
+  },
+  {
+    "id": "milk",
+    "name": "Pasteurised milk",
+    "category": "Dairy",
+    "form": "liquid",
+    "moisture": 87.5,
+    "fat": 3.5,
+    "ph": 6.7,
+    "resp20": 0,
+    "storage": "chilled",
+    "temp": 4,
+    "rh": 85,
+    "shelf_life": 3,
+    "pack_g": 500,
+    "mode": "air",
+    "note": null,
+    "mode_label": "Packed in air",
+    "regional_names": {
+      "hi": "Pasteurised milk",
+      "mr": "Pasteurised milk",
+      "ta": "Pasteurised milk",
+      "te": "Pasteurised milk"
+    },
+    "search_keywords": [
+      "pasteurised milk",
+      "milk"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "20.9% (Air)",
+      "CO2_pct": "0.04%",
+      "N2_pct": "78.1%",
+      "desc": "Standard Ambient Atmosphere"
+    },
+    "citation": {
+      "id": "NIFTEM_T",
+      "institution": "National Institute of Food Technology, Entrepreneurship and Management (NIFTEM-T), MoFPI",
+      "title": "Packaging Materials & Testing Handbook for Spices and Processed Foods",
+      "year": "2023",
+      "url": "https://niftem-t.ac.in/olapp/pmfme/upload/mt_handbook_spice.pdf",
+      "confidence": "High",
+      "type": "Government Food Processing Institute"
+    }
+  },
+  {
+    "id": "uht-milk",
+    "name": "UHT milk",
+    "category": "Dairy",
+    "form": "liquid",
+    "moisture": 87.5,
+    "fat": 3.0,
+    "ph": 6.7,
+    "resp20": 0,
+    "storage": "ambient",
+    "temp": 25,
+    "rh": 65,
+    "shelf_life": 120,
+    "pack_g": 1000,
+    "mode": "aseptic",
+    "note": null,
+    "mode_label": "Aseptic fill",
+    "regional_names": {
+      "hi": "UHT milk",
+      "mr": "UHT milk",
+      "ta": "UHT milk",
+      "te": "UHT milk"
+    },
+    "search_keywords": [
+      "uht milk",
+      "uht-milk"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "20.9% (Air)",
+      "CO2_pct": "0.04%",
+      "N2_pct": "78.1%",
+      "desc": "Standard Ambient Atmosphere"
+    },
+    "citation": {
+      "id": "NIFTEM_T",
+      "institution": "National Institute of Food Technology, Entrepreneurship and Management (NIFTEM-T), MoFPI",
+      "title": "Packaging Materials & Testing Handbook for Spices and Processed Foods",
+      "year": "2023",
+      "url": "https://niftem-t.ac.in/olapp/pmfme/upload/mt_handbook_spice.pdf",
+      "confidence": "High",
+      "type": "Government Food Processing Institute"
+    }
+  },
+  {
+    "id": "paneer",
+    "name": "Paneer",
+    "category": "Dairy",
+    "form": "solid",
+    "moisture": 54,
+    "fat": 25,
+    "ph": 5.9,
+    "resp20": 0,
+    "storage": "chilled",
+    "temp": 4,
+    "rh": 85,
+    "shelf_life": 21,
+    "pack_g": 200,
+    "mode": "vacuum",
+    "note": null,
+    "mode_label": "Vacuum pack",
+    "regional_names": {
+      "hi": "पनीर (Paneer)",
+      "mr": "पनीर (Paneer)",
+      "ta": "பனீர் (Paneer)",
+      "te": "పన్నీర్ (Paneer)"
+    },
+    "search_keywords": [
+      "fresh paneer",
+      "paneer",
+      "malai paneer",
+      "cottage cheese"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "< 0.5%",
+      "CO2_pct": "Residual",
+      "N2_pct": "Residual",
+      "desc": "High Vacuum extraction (< 20 mbar)"
+    },
+    "citation": {
+      "id": "NIFTEM_T",
+      "institution": "National Institute of Food Technology, Entrepreneurship and Management (NIFTEM-T), MoFPI",
+      "title": "Packaging Materials & Testing Handbook for Spices and Processed Foods",
+      "year": "2023",
+      "url": "https://niftem-t.ac.in/olapp/pmfme/upload/mt_handbook_spice.pdf",
+      "confidence": "High",
+      "type": "Government Food Processing Institute"
+    }
+  },
+  {
+    "id": "cheese",
+    "name": "Cheese block",
+    "category": "Dairy",
+    "form": "solid",
+    "moisture": 40,
+    "fat": 30,
+    "ph": 5.4,
+    "resp20": 0,
+    "storage": "chilled",
+    "temp": 4,
+    "rh": 85,
+    "shelf_life": 120,
+    "pack_g": 200,
+    "mode": "vacuum",
+    "note": null,
+    "mode_label": "Vacuum pack",
+    "regional_names": {
+      "hi": "Cheese block",
+      "mr": "Cheese block",
+      "ta": "Cheese block",
+      "te": "Cheese block"
+    },
+    "search_keywords": [
+      "cheese",
+      "cheese block"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "< 0.5%",
+      "CO2_pct": "Residual",
+      "N2_pct": "Residual",
+      "desc": "High Vacuum extraction (< 20 mbar)"
+    },
+    "citation": {
+      "id": "NIFTEM_T",
+      "institution": "National Institute of Food Technology, Entrepreneurship and Management (NIFTEM-T), MoFPI",
+      "title": "Packaging Materials & Testing Handbook for Spices and Processed Foods",
+      "year": "2023",
+      "url": "https://niftem-t.ac.in/olapp/pmfme/upload/mt_handbook_spice.pdf",
+      "confidence": "High",
+      "type": "Government Food Processing Institute"
+    }
+  },
+  {
+    "id": "butter",
+    "name": "Butter",
+    "category": "Dairy",
+    "form": "solid",
+    "moisture": 16,
+    "fat": 81,
+    "ph": 6.3,
+    "resp20": 0,
+    "storage": "chilled",
+    "temp": 4,
+    "rh": 85,
+    "shelf_life": 180,
+    "pack_g": 500,
+    "mode": "air",
+    "note": null,
+    "mode_label": "Packed in air",
+    "regional_names": {
+      "hi": "Butter",
+      "mr": "Butter",
+      "ta": "Butter",
+      "te": "Butter"
+    },
+    "search_keywords": [
+      "butter"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "20.9% (Air)",
+      "CO2_pct": "0.04%",
+      "N2_pct": "78.1%",
+      "desc": "Standard Ambient Atmosphere"
+    },
+    "citation": {
+      "id": "NIFTEM_T",
+      "institution": "National Institute of Food Technology, Entrepreneurship and Management (NIFTEM-T), MoFPI",
+      "title": "Packaging Materials & Testing Handbook for Spices and Processed Foods",
+      "year": "2023",
+      "url": "https://niftem-t.ac.in/olapp/pmfme/upload/mt_handbook_spice.pdf",
+      "confidence": "High",
+      "type": "Government Food Processing Institute"
+    }
+  },
+  {
+    "id": "ghee",
+    "name": "Ghee",
+    "category": "Dairy",
+    "form": "liquid",
+    "moisture": 0.3,
+    "fat": 99.5,
+    "ph": 6.5,
+    "resp20": 0,
+    "storage": "ambient",
+    "temp": 25,
+    "rh": 65,
+    "shelf_life": 270,
+    "pack_g": 1000,
+    "mode": "air",
+    "note": null,
+    "mode_label": "Packed in air",
+    "regional_names": {
+      "hi": "शुद्ध देसी घी (Pure Desi Ghee)",
+      "mr": "तूप (Toop)",
+      "ta": "நெய் (Ney)",
+      "te": "నెయ్యి (Neyyi)"
+    },
+    "search_keywords": [
+      "desi ghee",
+      "toop",
+      "clarified butter",
+      "ghee",
+      "ney",
+      "cow ghee"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "20.9% (Air)",
+      "CO2_pct": "0.04%",
+      "N2_pct": "78.1%",
+      "desc": "Standard Ambient Atmosphere"
+    },
+    "citation": {
+      "id": "NIFTEM_T",
+      "institution": "National Institute of Food Technology, Entrepreneurship and Management (NIFTEM-T), MoFPI",
+      "title": "Packaging Materials & Testing Handbook for Spices and Processed Foods",
+      "year": "2023",
+      "url": "https://niftem-t.ac.in/olapp/pmfme/upload/mt_handbook_spice.pdf",
+      "confidence": "High",
+      "type": "Government Food Processing Institute"
+    }
+  },
+  {
+    "id": "chicken",
+    "name": "Fresh chicken",
+    "category": "Meat, fish and poultry",
+    "form": "solid",
+    "moisture": 74,
+    "fat": 6,
+    "ph": 6.0,
+    "resp20": 0,
+    "storage": "chilled",
+    "temp": 2,
+    "rh": 85,
+    "shelf_life": 10,
+    "pack_g": 500,
+    "mode": "map_gas",
+    "note": null,
+    "mode_label": "Gas-flushed modified atmosphere",
+    "regional_names": {
+      "hi": "Fresh chicken",
+      "mr": "Fresh chicken",
+      "ta": "Fresh chicken",
+      "te": "Fresh chicken"
+    },
+    "search_keywords": [
+      "chicken",
+      "fresh chicken"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "60-80% (Red meat) or 0%",
+      "CO2_pct": "20-30%",
+      "N2_pct": "Balance",
+      "desc": "Active Gas Flush"
+    },
+    "citation": {
+      "id": "CFTRI_MYSORE",
+      "institution": "CSIR - Central Food Technological Research Institute (CFTRI), Mysore",
+      "title": "Physico-chemical properties of flexible packaging materials used in food packaging",
+      "year": "2021",
+      "url": "https://ir.cftri.res.in/4848/",
+      "confidence": "High",
+      "type": "National Research Laboratory"
+    }
+  },
+  {
+    "id": "mutton",
+    "name": "Fresh mutton",
+    "category": "Meat, fish and poultry",
+    "form": "solid",
+    "moisture": 72,
+    "fat": 12,
+    "ph": 5.7,
+    "resp20": 0,
+    "storage": "chilled",
+    "temp": 2,
+    "rh": 85,
+    "shelf_life": 14,
+    "pack_g": 500,
+    "mode": "vacuum",
+    "note": null,
+    "mode_label": "Vacuum pack",
+    "regional_names": {
+      "hi": "Fresh mutton",
+      "mr": "Fresh mutton",
+      "ta": "Fresh mutton",
+      "te": "Fresh mutton"
+    },
+    "search_keywords": [
+      "fresh mutton",
+      "mutton"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "< 0.5%",
+      "CO2_pct": "Residual",
+      "N2_pct": "Residual",
+      "desc": "High Vacuum extraction (< 20 mbar)"
+    },
+    "citation": {
+      "id": "CFTRI_MYSORE",
+      "institution": "CSIR - Central Food Technological Research Institute (CFTRI), Mysore",
+      "title": "Physico-chemical properties of flexible packaging materials used in food packaging",
+      "year": "2021",
+      "url": "https://ir.cftri.res.in/4848/",
+      "confidence": "High",
+      "type": "National Research Laboratory"
+    }
+  },
+  {
+    "id": "fish",
+    "name": "Fresh fish",
+    "category": "Meat, fish and poultry",
+    "form": "solid",
+    "moisture": 78,
+    "fat": 3,
+    "ph": 6.5,
+    "resp20": 0,
+    "storage": "chilled",
+    "temp": 1,
+    "rh": 90,
+    "shelf_life": 8,
+    "pack_g": 500,
+    "mode": "map_gas",
+    "note": null,
+    "mode_label": "Gas-flushed modified atmosphere",
+    "regional_names": {
+      "hi": "Fresh fish",
+      "mr": "Fresh fish",
+      "ta": "Fresh fish",
+      "te": "Fresh fish"
+    },
+    "search_keywords": [
+      "fresh fish",
+      "fish"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "60-80% (Red meat) or 0%",
+      "CO2_pct": "20-30%",
+      "N2_pct": "Balance",
+      "desc": "Active Gas Flush"
+    },
+    "citation": {
+      "id": "CFTRI_MYSORE",
+      "institution": "CSIR - Central Food Technological Research Institute (CFTRI), Mysore",
+      "title": "Physico-chemical properties of flexible packaging materials used in food packaging",
+      "year": "2021",
+      "url": "https://ir.cftri.res.in/4848/",
+      "confidence": "High",
+      "type": "National Research Laboratory"
+    }
+  },
+  {
+    "id": "frozen-veg",
+    "name": "Frozen peas and vegetables",
+    "category": "Frozen foods",
+    "form": "granular",
+    "moisture": 78,
+    "fat": 0.4,
+    "ph": 6.5,
+    "resp20": 0,
+    "storage": "frozen",
+    "temp": -18,
+    "rh": 70,
+    "shelf_life": 365,
+    "pack_g": 500,
+    "mode": "air",
+    "note": null,
+    "mode_label": "Packed in air",
+    "regional_names": {
+      "hi": "Frozen peas and vegetables",
+      "mr": "Frozen peas and vegetables",
+      "ta": "Frozen peas and vegetables",
+      "te": "Frozen peas and vegetables"
+    },
+    "search_keywords": [
+      "frozen peas and vegetables",
+      "frozen-veg"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "20.9% (Air)",
+      "CO2_pct": "0.04%",
+      "N2_pct": "78.1%",
+      "desc": "Standard Ambient Atmosphere"
+    },
+    "citation": {
+      "id": "CFTRI_MYSORE",
+      "institution": "CSIR - Central Food Technological Research Institute (CFTRI), Mysore",
+      "title": "Physico-chemical properties of flexible packaging materials used in food packaging",
+      "year": "2021",
+      "url": "https://ir.cftri.res.in/4848/",
+      "confidence": "High",
+      "type": "National Research Laboratory"
+    }
+  },
+  {
+    "id": "frozen-fish",
+    "name": "Frozen fish, shrimp or meat",
+    "category": "Frozen foods",
+    "form": "solid",
+    "moisture": 76,
+    "fat": 5,
+    "ph": 6.4,
+    "resp20": 0,
+    "storage": "frozen",
+    "temp": -18,
+    "rh": 70,
+    "shelf_life": 270,
+    "pack_g": 1000,
+    "mode": "vacuum",
+    "note": null,
+    "mode_label": "Vacuum pack",
+    "regional_names": {
+      "hi": "Frozen fish, shrimp or meat",
+      "mr": "Frozen fish, shrimp or meat",
+      "ta": "Frozen fish, shrimp or meat",
+      "te": "Frozen fish, shrimp or meat"
+    },
+    "search_keywords": [
+      "frozen fish, shrimp or meat",
+      "frozen-fish"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "< 0.5%",
+      "CO2_pct": "Residual",
+      "N2_pct": "Residual",
+      "desc": "High Vacuum extraction (< 20 mbar)"
+    },
+    "citation": {
+      "id": "CFTRI_MYSORE",
+      "institution": "CSIR - Central Food Technological Research Institute (CFTRI), Mysore",
+      "title": "Physico-chemical properties of flexible packaging materials used in food packaging",
+      "year": "2021",
+      "url": "https://ir.cftri.res.in/4848/",
+      "confidence": "High",
+      "type": "National Research Laboratory"
+    }
+  },
+  {
+    "id": "edible-oil",
+    "name": "Edible oil",
+    "category": "Oils, sauces and beverages",
+    "form": "liquid",
+    "moisture": 0.1,
+    "fat": 100,
+    "ph": 7.0,
+    "resp20": 0,
+    "storage": "ambient",
+    "temp": 25,
+    "rh": 65,
+    "shelf_life": 270,
+    "pack_g": 1000,
+    "mode": "air",
+    "note": null,
+    "mode_label": "Packed in air",
+    "regional_names": {
+      "hi": "Edible oil",
+      "mr": "Edible oil",
+      "ta": "Edible oil",
+      "te": "Edible oil"
+    },
+    "search_keywords": [
+      "edible oil",
+      "edible-oil"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "20.9% (Air)",
+      "CO2_pct": "0.04%",
+      "N2_pct": "78.1%",
+      "desc": "Standard Ambient Atmosphere"
+    },
+    "citation": {
+      "id": "CFTRI_MYSORE",
+      "institution": "CSIR - Central Food Technological Research Institute (CFTRI), Mysore",
+      "title": "Physico-chemical properties of flexible packaging materials used in food packaging",
+      "year": "2021",
+      "url": "https://ir.cftri.res.in/4848/",
+      "confidence": "High",
+      "type": "National Research Laboratory"
+    }
+  },
+  {
+    "id": "pickle",
+    "name": "Pickle (achar)",
+    "category": "Oils, sauces and beverages",
+    "form": "paste",
+    "moisture": 55,
+    "fat": 20,
+    "ph": 3.6,
+    "resp20": 0,
+    "storage": "ambient",
+    "temp": 25,
+    "rh": 65,
+    "shelf_life": 365,
+    "pack_g": 500,
+    "mode": "air",
+    "note": null,
+    "mode_label": "Packed in air",
+    "regional_names": {
+      "hi": "Pickle (achar)",
+      "mr": "Pickle (achar)",
+      "ta": "Pickle (achar)",
+      "te": "Pickle (achar)"
+    },
+    "search_keywords": [
+      "pickle",
+      "pickle (achar)"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "20.9% (Air)",
+      "CO2_pct": "0.04%",
+      "N2_pct": "78.1%",
+      "desc": "Standard Ambient Atmosphere"
+    },
+    "citation": {
+      "id": "CFTRI_MYSORE",
+      "institution": "CSIR - Central Food Technological Research Institute (CFTRI), Mysore",
+      "title": "Physico-chemical properties of flexible packaging materials used in food packaging",
+      "year": "2021",
+      "url": "https://ir.cftri.res.in/4848/",
+      "confidence": "High",
+      "type": "National Research Laboratory"
+    }
+  },
+  {
+    "id": "ketchup",
+    "name": "Tomato ketchup",
+    "category": "Oils, sauces and beverages",
+    "form": "paste",
+    "moisture": 68,
+    "fat": 0.2,
+    "ph": 3.8,
+    "resp20": 0,
+    "storage": "ambient",
+    "temp": 25,
+    "rh": 65,
+    "shelf_life": 270,
+    "pack_g": 500,
+    "mode": "hot_fill",
+    "note": null,
+    "mode_label": "Hot fill",
+    "regional_names": {
+      "hi": "Tomato ketchup",
+      "mr": "Tomato ketchup",
+      "ta": "Tomato ketchup",
+      "te": "Tomato ketchup"
+    },
+    "search_keywords": [
+      "tomato ketchup",
+      "ketchup"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "20.9% (Air)",
+      "CO2_pct": "0.04%",
+      "N2_pct": "78.1%",
+      "desc": "Standard Ambient Atmosphere"
+    },
+    "citation": {
+      "id": "CFTRI_MYSORE",
+      "institution": "CSIR - Central Food Technological Research Institute (CFTRI), Mysore",
+      "title": "Physico-chemical properties of flexible packaging materials used in food packaging",
+      "year": "2021",
+      "url": "https://ir.cftri.res.in/4848/",
+      "confidence": "High",
+      "type": "National Research Laboratory"
+    }
+  },
+  {
+    "id": "fruit-juice",
+    "name": "Fruit juice",
+    "category": "Oils, sauces and beverages",
+    "form": "liquid",
+    "moisture": 88,
+    "fat": 0.1,
+    "ph": 3.6,
+    "resp20": 0,
+    "storage": "ambient",
+    "temp": 25,
+    "rh": 65,
+    "shelf_life": 180,
+    "pack_g": 1000,
+    "mode": "aseptic",
+    "note": null,
+    "mode_label": "Aseptic fill",
+    "regional_names": {
+      "hi": "Fruit juice",
+      "mr": "Fruit juice",
+      "ta": "Fruit juice",
+      "te": "Fruit juice"
+    },
+    "search_keywords": [
+      "fruit-juice",
+      "fruit juice"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "20.9% (Air)",
+      "CO2_pct": "0.04%",
+      "N2_pct": "78.1%",
+      "desc": "Standard Ambient Atmosphere"
+    },
+    "citation": {
+      "id": "CFTRI_MYSORE",
+      "institution": "CSIR - Central Food Technological Research Institute (CFTRI), Mysore",
+      "title": "Physico-chemical properties of flexible packaging materials used in food packaging",
+      "year": "2021",
+      "url": "https://ir.cftri.res.in/4848/",
+      "confidence": "High",
+      "type": "National Research Laboratory"
+    }
+  },
+  {
+    "id": "honey",
+    "name": "Honey",
+    "category": "Oils, sauces and beverages",
+    "form": "liquid",
+    "moisture": 17,
+    "fat": 0,
+    "ph": 3.9,
+    "resp20": 0,
+    "storage": "ambient",
+    "temp": 25,
+    "rh": 65,
+    "shelf_life": 540,
+    "pack_g": 500,
+    "mode": "air",
+    "note": null,
+    "mode_label": "Packed in air",
+    "regional_names": {
+      "hi": "Honey",
+      "mr": "Honey",
+      "ta": "Honey",
+      "te": "Honey"
+    },
+    "search_keywords": [
+      "honey"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "20.9% (Air)",
+      "CO2_pct": "0.04%",
+      "N2_pct": "78.1%",
+      "desc": "Standard Ambient Atmosphere"
+    },
+    "citation": {
+      "id": "CFTRI_MYSORE",
+      "institution": "CSIR - Central Food Technological Research Institute (CFTRI), Mysore",
+      "title": "Physico-chemical properties of flexible packaging materials used in food packaging",
+      "year": "2021",
+      "url": "https://ir.cftri.res.in/4848/",
+      "confidence": "High",
+      "type": "National Research Laboratory"
+    }
+  },
+  {
+    "id": "rte-curry",
+    "name": "Ready-to-eat curry",
+    "category": "Ready-to-eat",
+    "form": "paste",
+    "moisture": 72,
+    "fat": 8,
+    "ph": 5.8,
+    "resp20": 0,
+    "storage": "ambient",
+    "temp": 25,
+    "rh": 65,
+    "shelf_life": 365,
+    "pack_g": 300,
+    "mode": "retort",
+    "note": null,
+    "mode_label": "Retort sterilisation",
+    "regional_names": {
+      "hi": "Ready-to-eat curry",
+      "mr": "Ready-to-eat curry",
+      "ta": "Ready-to-eat curry",
+      "te": "Ready-to-eat curry"
+    },
+    "search_keywords": [
+      "ready-to-eat curry",
+      "rte-curry"
+    ],
+    "map_gas_recommended": {
+      "O2_pct": "20.9% (Air)",
+      "CO2_pct": "0.04%",
+      "N2_pct": "78.1%",
+      "desc": "Standard Ambient Atmosphere"
+    },
+    "citation": {
+      "id": "NIFTEM_T",
+      "institution": "National Institute of Food Technology, Entrepreneurship and Management (NIFTEM-T), MoFPI",
+      "title": "Packaging Materials & Testing Handbook for Spices and Processed Foods",
+      "year": "2023",
+      "url": "https://niftem-t.ac.in/olapp/pmfme/upload/mt_handbook_spice.pdf",
+      "confidence": "High",
+      "type": "Government Food Processing Institute"
+    }
+  }
+]
