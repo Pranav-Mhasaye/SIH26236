@@ -86,6 +86,7 @@ class CookieLogRequest(BaseModel):
 # ----------------- Endpoints -----------------
 
 @app.get("/")
+@app.get("/api/health")
 def health_check():
     return {
         "status": "healthy",
@@ -101,6 +102,11 @@ def get_commodities(category: Optional[str] = None):
     if category:
         items = [c for c in items if c.get("category", "").lower() == category.lower()]
     return items
+
+@app.get("/api/categories")
+def get_categories():
+    categories = sorted(list(set(c.get("category") for c in recommender.commodities if c.get("category"))))
+    return categories
 
 @app.get("/api/commodities/{cid}")
 def get_commodity(cid: str):
