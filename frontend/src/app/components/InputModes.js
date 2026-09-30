@@ -36,11 +36,16 @@ export default function InputModes({
   // Load all commodities and categories on mount
   useEffect(() => {
     fetch(`${API_BASE}/api/commodities`)
-      .then((res) => res.json())
+      .then((res) => {
+        if (!res.ok) throw new Error("Failed to fetch commodities");
+        return res.json();
+      })
       .then((data) => {
-        setCommoditiesList(data);
-        const cats = Array.from(new Set(data.map((c) => c.category))).filter(Boolean);
-        setCategories(cats);
+        if (Array.isArray(data)) {
+          setCommoditiesList(data);
+          const cats = Array.from(new Set(data.map((c) => c.category))).filter(Boolean);
+          setCategories(cats);
+        }
       })
       .catch((err) => console.error("Failed to load commodities", err));
   }, []);
@@ -184,6 +189,13 @@ export default function InputModes({
               className="search-input"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
+              onKeyDown={(e) => {
+                if (e.key === "Enter" && searchResults.length > 0) {
+                  onSelectCommodity(searchResults[0].commodity);
+                  setSearchQuery("");
+                  setSearchResults([]);
+                }
+              }}
               placeholder="Search commodity (e.g. Potato, Tamatar, Alphonso Mango, Chips, Paneer, Atta)..."
               autoFocus
             />

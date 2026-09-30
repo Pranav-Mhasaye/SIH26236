@@ -46,8 +46,11 @@ export default function Home() {
 
   // Health check API
   useEffect(() => {
-    fetch(`${API_BASE}/`)
-      .then((res) => res.json())
+    fetch(`${API_BASE}/api/health`)
+      .then((res) => {
+        if (!res.ok) throw new Error("Health check failed");
+        return res.json();
+      })
       .then((data) => {
         if (data.status === "healthy") setApiOnline(true);
       })
